@@ -1,16 +1,37 @@
-body {
-    background-image: url('image1.jpg');
-    background-size: 1400px 650px;
-    color: white;
-}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Task no 7
+        </title>
+        <style>
+            body
+                 {
+                    background: url("heic0506a.jpg");
+                    background-size: cover;
+                 }
 
-         
-h1{
-    color:white;
-    font-size: 2rem;
+            h1
+                  {
+                    font-family: 'Times New Roman';
+                    color: rgb(255, 255, 255);
+                  } 
+                  
+            p
+            
+                  {
+                    font-family: 'Times New Roman';
+                    color: rgb(255, 255, 255);
+                  }
+        </style>
+    </head>
+    <body>
+        <h1>
+            Hello World
+        </h1>
 
-     }
-p{
-    color: white;
-}
-    
+        <p>
+            This page has an image as background
+        </p>
+    </body>
+</html>
